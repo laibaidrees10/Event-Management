@@ -1,6 +1,6 @@
 ## 📅 Event Scheduling System (C++)
 
-A robust, console-based Event Scheduling System implemented in C++. This project utilizes a ** Binary Search Tree (BST) **  to efficiently manage events based on their start time and provides key scheduling features such as conflict detection and free slot calculation.
+A robust, console-based **Event Scheduling System** implemented in C++. This project utilizes a **Binary Search Tree (BST)** to efficiently manage events based on their start time and provides key scheduling features such as conflict detection and free slot calculation.
 
 # 🚀 Features
 
