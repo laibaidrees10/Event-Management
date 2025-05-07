@@ -4,11 +4,11 @@ A robust, console-based **Event Scheduling System** implemented in C++. This pro
 
 # 🚀 Features
 
-* ✅ Add Event — Add a new event with ID, name, start time, and duration.
-* ❌ Delete Event — Remove an event using its unique ID.
-* 🔍 Detect Overlaps — Check if a given time window overlaps with any existing event.
-* ⏰ Calculate Free Time Slots — Identify available time intervals for a specific day.
-* 📋 View Full Schedule — Display all scheduled events in sorted (chronological) order.
+* **✅ Add Event** — Add a new event with ID, name, start time, and duration.
+* **❌ Delete Event** — Remove an event using its unique ID.
+* **🔍 Detect Overlaps** — Check if a given time window overlaps with any existing event.
+* **⏰ Calculate Free Time Slots** — Identify available time intervals for a specific day.
+* **📋 View Full Schedule** — Display all scheduled events in sorted (chronological) order.
   
 # 🧠 Data Structure
 
@@ -27,10 +27,10 @@ Events are stored in a Binary Search Tree (BST) ordered by startDateTime (YYYY-M
       ./scheduler
 # ⚙️ Functional Highlights
 
-* Conflict Handling: Prevents insertion of events with the same startDateTime.
+* **Conflict Handling:** Prevents insertion of events with the same startDateTime.
 
-* End Time Calculation: Handles overflow when duration spills over into the next hour.
+* **End Time Calculation:** Handles overflow when duration spills over into the next hour.
 
-* Day Filtering: Free slots are calculated per day, not across days.
+* **Day Filtering:** Free slots are calculated per day, not across days.
 
 * In-Memory System: No persistence — designed for runtime operation.
