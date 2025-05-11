@@ -21,10 +21,13 @@ Events are stored in a Binary Search Tree (BST) ordered by startDateTime (YYYY-M
 
 * Clone or download the repository.
 
-* Use the following commands to compile and run it.
+* Use the following commands to compile.
 
       g++ -o scheduler scheduler.cpp
-      ./scheduler
+  
+* To Run
+  
+          ./scheduler
 # ⚙️ Functional Highlights
 
 * **Conflict Handling:** Prevents insertion of events with the same startDateTime.
