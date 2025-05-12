@@ -12,7 +12,7 @@ A robust, console-based **Event Scheduling System** implemented in C++. This pro
   
 # 🧠 Data Structure
 
-Events are stored in a Binary Search Tree (BST) ordered by startDateTime (YYYY-MM-DD HH:MM format). This allows for efficient insertion, traversal, and conflict resolution.
+Events are stored in a **Binary Search Tree (BST)** ordered by **startDateTime (YYYY-MM-DD HH:MM format)**. This allows for efficient insertion, traversal, and conflict resolution.
 
 
 # 🛠️ How to Compile and Run
